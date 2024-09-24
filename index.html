@@ -11,7 +11,7 @@
   <body>
     <!-- Estructura básica y etiquetas de sección -->
     <header>
-      <h1>Bienvenido al Proyecto HTML5</h1>
+      <h1>Bienvenido al Proyecto HTML5 Version editado por Eliany</h1>
     </header>
 
     <main>
@@ -38,9 +38,9 @@
           </thead>
           <tbody>
             <tr>
-              <td>Juan Pérez</td>
-              <td>28</td>
-              <td>Desarrollador Web</td>
+              <td>Eli Navarro</td>
+              <td>18</td>
+              <td>Desarrollador Web (e)</td>
             </tr>
             <tr>
               <td>María López</td>
@@ -53,17 +53,17 @@
 
       <!-- Etiquetas multimedia: imágenes y video -->
       <section aria-label="Contenido multimedia">
-        <h2>Imágenes y Video en HTML5</h2>
+        <h2>Se acerca el parcial</h2>
         <h3>Imagen:</h3>
         <img
-          src="https://via.placeholder.com/600x300"
+          src="./descarga.jpg" 
           alt="Imagen de ejemplo"
         />
 
         <h3>Video:</h3>
         <video controls>
           <source
-            src="https://videos.pexels.com/video-files/11274330/11274330-uhd_2560_1440_25fps.mp4"
+            src="./Video.mp4" 
             type="video/mp4"
           />
           Tu navegador no soporta video HTML5.
@@ -92,6 +92,17 @@
             required
           />
 
+
+          <label for="phone">Número de Teléfono:</label>
+          <input
+          type="tel"
+         id="phone"
+         name="phone"
+         placeholder="Ingresa tu número de teléfono"
+         required
+          />
+
+          
           <label for="message">Mensaje:</label>
           <textarea
             id="message"
@@ -100,7 +111,7 @@
             placeholder="Escribe tu mensaje"
             required
           ></textarea>
-
+          
           <input type="submit" value="Enviar" />
         </form>
       </section>

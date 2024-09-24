@@ -17,8 +17,8 @@ body {
 
 /* Estilos de encabezado */
 header {
-  background-color: #333;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 1em 0;
 }
@@ -31,7 +31,7 @@ main {
 /* Estilos de las secciones */
 section {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -42,8 +42,11 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  background-color: #ffb3e4;
 }
-
+h2{
+  background-color: #f881ce;
+}
 table, th, td {
   border: 1px solid #ddd;
   padding: 8px;
@@ -55,13 +58,13 @@ th {
 
 /* Estilos para imágenes */
 img {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
 }
 
 /* Estilos para videos */
 video {
-  width: 100%;
+  width: 30%;
   height: auto;
 }
 
@@ -86,7 +89,7 @@ input, textarea {
 }
 
 input[type="submit"] {
-  background-color: #333;
+  background-color: #fd44bc;
   color: white;
   border: none;
   cursor: pointer;
@@ -94,12 +97,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #555;
+  background-color: #ff3ad8;
 }
 
 /* Estilos para el pie de página */
 footer {
-  background-color: #333;
+  background-color: #000000;
   color: white;
   text-align: center;
   padding: 20px;
